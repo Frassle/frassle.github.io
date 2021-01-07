@@ -1,25 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to GitHub pages and Jekyll!"
 date:   2021-01-07 20:34:25 +0000
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Today I finally set up github pages with Jekyll. I've copied across a couple of my posts from my old blogger site that I still like ([1]({% post_url 2012-09-11-traces-in-voxel-space %}), [2]({% post_url 2012-09-12-traces-in-voxel-space-continued %})).
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I've got plans for a couple of other thoughts I'd like to write which are too long for twitter, so I'll ramble about them here.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+This site is accessible at [https://frassle.github.io](https://frassle.github.io) or at [https://blog.ibasa.uk](https://blog.ibasa.uk).

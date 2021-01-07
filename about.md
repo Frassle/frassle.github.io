@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Fraser Waters.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+When I was at university ([Imperial College London](https://www.imperial.ac.uk/)) I wrote some posts on blogger. I've copied the couple of decent posts from that time to here.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+If you want to contact me directly, try emailing fraser@ibasa.uk. I’m also available on Twitter at [@frassle](http://twitter.com/frassle).
