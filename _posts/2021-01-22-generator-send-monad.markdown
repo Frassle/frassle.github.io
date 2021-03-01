@@ -2,7 +2,7 @@
 layout: post
 title:  "Generator.send as monadic bind"
 date:   2021-01-22 21:52:00 +0000
-categories: python programming
+categories: programming python
 ---
 
 I'm a functional programmer at heart, so I'm quite happy thinking in terms of things like functors and monads.
