@@ -15,7 +15,8 @@ A refresher but a monad is simply any type which has a `return` (or `unit`) and 
 // Lift a value into the monad M
 return : T → M<T>
 
-// Take the T value from a monad, call a function to transform that T value into a new monad with a U value.
+// Take the T value from a monad, call a function to transform that T value into a
+// new monad with a U value.
 bind : M<T> → (T → M<U>) → M<U>
 ```
 
