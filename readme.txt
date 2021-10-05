@@ -1,1 +1,1 @@
-Launch from ubuntu with `bundle exec jekyll serve`
+Launch from ubuntu with `bundle exec jekyll serve --future`
