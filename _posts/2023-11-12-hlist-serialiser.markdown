@@ -11,6 +11,12 @@ At work ([Pulumi](https://www.pulumi.com)) we've been thinking about how to buil
 
 Two of the hardest parts of writing a resource provider are handling the serialization to and from the wire protocol to standard types, and writing a [Pulumi schema](https://www.pulumi.com/docs/using-pulumi/pulumi-packages/schema/) to describe the types to the engine and code generators.
 
+# Resource providers
+
+What are resource providers?
+Why do they have a wire protocol?
+Whats a property value?
+
 # Generated providers
 
 For the generated providers they don't need much built in support for these problems. As they're doing dynamic handling of the data from other source schemas they don't actually generate types internally to the provider, they just work directly with the dynamic values from the wire protocol and write the types they need directly to schema.
