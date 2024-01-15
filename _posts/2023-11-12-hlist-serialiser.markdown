@@ -13,9 +13,14 @@ Two of the hardest parts of writing a resource provider are handling the seriali
 
 # Resource providers
 
-What are resource providers?
-Why do they have a wire protocol?
-Whats a property value?
+A resource provider is a plugin that the Pulumi engine can use to create, update, read, and delete resources. They are a separate process to the engine itself and so we have to communicate via an RPC protocol.
+The RPC protocol is based on gRPC and Protobuf, but for the resource properties we need to be able to express JSON like data with a few extra types. Given we also store this data in JSON state files we have an encoding of "property values" to a JSON like model, which also fits into Protobufs `Value` shape.
+
+For primitive values like strings and numbers we just use JSON values directly. But for our extensions values like `unknown` or `resource reference` we encode them in JSON objects with a special signature field which is a UUID with a UUID value. Like `{ "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270", "value": "hello" }` for a secret string value "hello".
+
+Resource providers also need to give the engine a schema which describes the shape of all resource inputs and outputs so that we can generate strongly typed SDKs. 
+
+Mapping between the Protobuf model and the property value model can be done in core Pulumi SDKs, but the tricky part is given a `PropertyValue.Map` how do you marshal that to a strongly typed argument structure, and even tricker given a strongly typed argument type what's the Pulumi schema that describes that shape.
 
 # Generated providers
 
